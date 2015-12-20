@@ -27,7 +27,7 @@
 - (void)_initWithFrame:(CGRect)frame {
     self.backgroundColor = [UIColor clearColor];
     self.layer.masksToBounds  = YES;
-    _waterWaveHeight = frame.size.height / 2;
+    _waterWaveHeight = 10;
     _waterWaveWidth  = frame.size.width;
     
     self.waveAmplitude = 6;
